@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="popup.css">
+    <title>Dual Subs</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Dual Subs</h1>
+        <p id="status">Open a Netflix video first.</p>
+      </header>
+
+      <label class="row">
+        <input id="enabled" type="checkbox">
+        <span>Show second official subtitle</span>
+      </label>
+
+      <label>
+        <span>Second language</span>
+        <select id="secondaryLanguage"></select>
+      </label>
+
+      <label>
+        <span>Font size</span>
+        <input id="fontSize" type="range" min="14" max="44" step="1">
+      </label>
+
+      <label>
+        <span>Vertical position</span>
+        <input id="bottom" type="range" min="5" max="34" step="1">
+      </label>
+
+      <label>
+        <span>Background</span>
+        <input id="backgroundOpacity" type="range" min="0" max="100" step="1">
+      </label>
+
+      <button id="reload" type="button">Reload subtitles</button>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

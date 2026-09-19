@@ -1,0 +1,25 @@
+#nfds-overlay {
+  --nfds-font-size: 22px;
+  --nfds-bottom: 13%;
+  --nfds-bg: 0.72;
+  position: fixed;
+  left: 50%;
+  bottom: var(--nfds-bottom);
+  z-index: 2147483647;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  max-width: min(86vw, 1180px);
+  padding: 0.28em 0.62em;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, var(--nfds-bg));
+  color: #fff;
+  font: 700 var(--nfds-font-size) / 1.35 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  text-shadow: 0 1px 2px #000, 0 0 4px #000;
+  white-space: pre-line;
+  pointer-events: none;
+}
+
+#nfds-overlay[hidden] {
+  display: none !important;
+}
