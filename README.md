@@ -1,5 +1,7 @@
 # Netflix Dual Official Subs for Safari
 
+English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md)
+
 This is a small Safari Web Extension source folder for showing a second official Netflix subtitle track as an overlay.
 
 It does not machine-translate subtitles and does not load community subtitle files. It watches for the subtitle manifest that Netflix sends to the browser, lets you choose one of those Netflix-provided tracks, fetches that text subtitle track, and syncs it to the current video time.
